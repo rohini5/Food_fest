@@ -1,1 +1,92 @@
-style.css
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.btn-outline {
+  font-size: 1.3em;
+  color: #fff;
+  font-weight: bolder;
+  padding: 1em 2em;
+  border: 2px solid #fff; }
+
+#landing {
+  position: relative;
+  width: 100vw;
+  height: 100vh; }
+  #landing .image1 {
+    background-image: url("../images/slider1.jpg");
+    background-repeat: no-repeat;
+    height: 50em;
+    background-size: cover; }
+  #landing .image2 {
+    background-image: url("../images/slider2.jpg");
+    background-repeat: no-repeat;
+    height: 50em;
+    background-size: cover; }
+  #landing .image3 {
+    background-image: url("../images/slider5.jpg");
+    background-repeat: no-repeat;
+    height: 50em;
+    background-size: cover; }
+  #landing .font {
+    position: absolute;
+    color: #fff;
+    left: 0;
+    right: 0;
+    top: 8em; }
+    #landing .font h2 {
+      font-size: 4em;
+      font-family: "Pacifico", cursive; }
+    #landing .font h1 {
+      font-size: 6em;
+      font-family: "Pacifico", cursive;
+      text-transform: uppercase; }
+    #landing .font h3 {
+      font-size: 2em; }
+
+#specials .image1 {
+  background-image: url("../images/slider1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding: 1em; }
+  #specials .image1:hover {
+    background-image: url("../images/slider4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    padding: 1em; }
+#specials .image2 {
+  background-image: url("../images/slider2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding: 1em; }
+  #specials .image2:hover {
+    background-image: url("../images/slider3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    padding: 1em; }
+#specials .image3 {
+  background-image: url("../images/slider4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding: 1em; }
+  #specials .image3:hover {
+    background-image: url("../images/slider1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    padding: 1em; }
+#specials .desc h2 {
+  color: #F26522;
+  font-family: 'Pacifico', cursive;
+  font-size: 3.5em; }
+#specials .desc i {
+  padding-top: 1em;
+  color: #9db7c5; }
+#specials .desc p {
+  padding-top: 1em; }
+
+/*# sourceMappingURL=style.css.map */

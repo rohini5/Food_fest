@@ -1,0 +1,44 @@
+#landing{
+	position: relative;
+  width: 100vw;
+  height: 100vh;
+
+	.image1{
+		background-image: url('../images/slider1.jpg');
+    background-repeat: no-repeat;
+    height: 50em;
+    background-size: cover;
+	}
+	.image2{
+		background-image: url('../images/slider2.jpg');
+    background-repeat: no-repeat;
+    height: 50em;
+    background-size: cover;
+	}
+	.image3{
+		background-image: url('../images/slider5.jpg');
+    background-repeat: no-repeat;
+    height: 50em;
+    background-size: cover;
+	}
+	.font{
+		position: absolute;
+		color: $primary-color;
+		left: 0;
+      right: 0;
+      top: 8em;
+      h2{
+      	    font-size: 4em;
+      	    font-family: $primary-font;
+      }
+      h1{
+      	font-size: 6em;
+      	    font-family: $primary-font;
+      	    text-transform: uppercase;
+      }
+      h3{
+      	font-size: 2em;
+      }
+      
+	}
+}
