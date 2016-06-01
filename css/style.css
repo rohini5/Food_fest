@@ -89,4 +89,31 @@ body {
 #specials .desc p {
   padding-top: 1em; }
 
+#foodtypes {
+  background-image: url("../images/our-products-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 2em; }
+  #foodtypes h2 {
+    font-size: 3em;
+    font-family: "Pacifico", cursive;
+    color: #fff;
+    margin-top: 1.5em; }
+  #foodtypes i {
+    color: #fff;
+    margin-top: 1em; }
+  #foodtypes p {
+    color: #fff;
+    padding: 1em; }
+  #foodtypes .image {
+    border: 4px solid white;
+    padding: 1em;
+    margin-bottom: 4em; }
+    #foodtypes .image img {
+      transition: transform 2s; }
+      #foodtypes .image img:hover {
+        transform: rotateY(180deg); }
+    #foodtypes .image h3 {
+      color: #fff; }
+
 /*# sourceMappingURL=style.css.map */
