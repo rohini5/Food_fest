@@ -1,12 +1,17 @@
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden; }
 
 .btn-outline {
   font-size: 1.3em;
   color: #fff;
   font-weight: bolder;
   padding: 1em 2em;
-  border: 2px solid #fff; }
+  border: 2px solid #fff;
+  transition: background-color; }
+  .btn-outline:hover {
+    color: #fff;
+    background-color: black; }
 
 #landing {
   position: relative;
@@ -48,6 +53,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 250px;
+  width: 100vw;
   padding: 1em; }
   #specials .image1:hover {
     background-image: url("../images/slider4.jpg");
@@ -93,6 +99,7 @@ body {
   background-image: url("../images/our-products-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100vw;
   margin-top: 2em; }
   #foodtypes h2 {
     font-size: 3em;
@@ -115,5 +122,32 @@ body {
         transform: rotateY(180deg); }
     #foodtypes .image h3 {
       color: #fff; }
+
+#order {
+  background-image: url("../images/slider1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  margin-top: 4em;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7); }
+  #order .food {
+    padding-top: 2em; }
+  #order .chef {
+    padding-top: 2.5em;
+    padding-left: 8em;
+    color: #fff; }
+    #order .chef h3 {
+      margin-top: 10px;
+      /*if u write any style and if it's not working use
+      margin-top: 10px !imaporent; */
+      font-size: 3.5em; }
+    #order .chef p {
+      font-size: 1.8em; }
+      #order .chef p i {
+        padding-right: 10px; }
+  #order .try-it {
+    margin-top: 2em; }
+  #order .any i {
+    padding-right: 0.8em; }
 
 /*# sourceMappingURL=style.css.map */

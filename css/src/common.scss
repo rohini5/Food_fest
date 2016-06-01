@@ -1,5 +1,6 @@
 body{
 	font-family: 'Open Sans', sans-serif;
+	overflow-x:hidden;
 }
 .btn-outline{
       	font-size: 1.3em;
@@ -7,4 +8,9 @@ body{
           font-weight: bolder;
           padding: 1em 2em;
           border: 2px solid $primary-color;
+			transition: background-color;
+          &:hover{
+          	 color: $primary-color;
+          	 background-color:black;
+          }
       }
