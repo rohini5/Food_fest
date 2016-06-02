@@ -53,7 +53,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 250px;
-  width: 100vw;
   padding: 1em; }
   #specials .image1:hover {
     background-image: url("../images/slider4.jpg");
@@ -149,5 +148,25 @@ body {
     margin-top: 2em; }
   #order .any i {
     padding-right: 0.8em; }
+
+#menu .desc h2 {
+  margin-top: 2em;
+  font-size: 3em;
+  color: #F26522;
+  font-family: "Pacifico", cursive; }
+#menu .desc i {
+  padding-top: 1em;
+  color: #9db7c5; }
+#menu .desc p {
+  padding: 2em 0em 2em; }
+#menu .drinks {
+  margin-top: 2em; }
+  #menu .drinks a {
+    text-align: center;
+    font-weight: bold; }
+  #menu .drinks img {
+    background-color: #fff;
+    height: 300px;
+    width: 360px; }
 
 /*# sourceMappingURL=style.css.map */

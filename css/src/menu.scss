@@ -1,0 +1,33 @@
+#menu{
+	.desc{
+		h2{
+			margin-top: 2em;
+		font-size: 3em;
+    color: $secondary-color;
+    font-family: $primary-font;
+	}
+	i{
+		padding-top: 1em;
+		color: #9db7c5;
+	}
+	p{
+		padding:2em 0em 2em;
+
+	}
+	}
+	.drinks{
+		margin-top: 2em;
+
+		a{
+		text-align: center;
+		font-weight: bold;
+
+	}
+img {
+      background-color: $primary-color;
+      height: 300px;
+      width: 360px;
+    }
+	}
+	
+}
