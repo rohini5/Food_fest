@@ -208,46 +208,93 @@ body {
   color: #9db7c5; }
 #booking p {
   padding: 1.5em; }
-#booking .book .text-input {
-  height: 50px;
-  color: gray;
-  border: 1px solid gray;
-  margin-bottom: 2em;
-  width: 45vh;
-  border-radius: 2px;
-  padding-left: 15px; }
-  #booking .book .text-input:hover {
-    color: #F26522; }
-#booking .book .book-list {
-  height: 50px;
-  color: gray;
-  border: 1px solid gray;
-  margin-bottom: 2em;
-  width: 45vh;
-  border-radius: 2px; }
-  #booking .book .book-list:hover {
-    color: #F26522; }
-#booking .book .text-msg {
-  height: 12em;
-  color: gray;
-  border: 1px solid gray;
-  margin-bottom: 2em;
-  width: 143vh;
-  border-radius: 2px;
-  padding-left: 15px; }
-  #booking .book .text-msg:hover {
-    color: #F26522; }
-#booking .book .btn-solid {
-  font-size: 1.3em;
-  color: #fff;
-  font-weight: bolder;
-  padding: 0.8em 3em;
-  background-color: #F26522;
-  border: 2px solid #fff;
-  transition: background-color;
-  margin-left: 25em; }
-  #booking .book .btn-solid:hover {
+#booking .book {
+  margin-bottom: 12em; }
+  #booking .book .text-input {
+    height: 50px;
+    color: gray;
+    border: 1px solid gray;
+    margin-bottom: 2em;
+    width: 45vh;
+    border-radius: 2px;
+    padding-left: 15px; }
+    #booking .book .text-input:hover {
+      color: #F26522; }
+  #booking .book .book-list {
+    height: 50px;
+    color: gray;
+    border: 1px solid gray;
+    margin-bottom: 2em;
+    width: 45vh;
+    border-radius: 2px; }
+    #booking .book .book-list:hover {
+      color: #F26522; }
+  #booking .book .text-msg {
+    height: 12em;
+    color: gray;
+    border: 1px solid gray;
+    margin-bottom: 2em;
+    width: 143vh;
+    border-radius: 2px;
+    padding-left: 15px; }
+    #booking .book .text-msg:hover {
+      color: #F26522; }
+  #booking .book .btn-solid {
+    font-size: 1.3em;
     color: #fff;
-    background-color: gray; }
+    font-weight: bolder;
+    padding: 0.8em 3em;
+    background-color: #F26522;
+    border: 2px solid #fff;
+    transition: background-color;
+    margin-left: 25em; }
+    #booking .book .btn-solid:hover {
+      color: #fff;
+      background-color: gray; }
+
+#review {
+  margin-top: 6em;
+  background-image: url("../images/comment-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw; }
+  #review .reviewing {
+    margin-top: 7em;
+    height: 28em;
+    background-color: rgba(242, 101, 34, 0.8); }
+    #review .reviewing img {
+      position: relative;
+      top: 4em;
+      left: 4em; }
+    #review .reviewing h2 {
+      font-family: "Pacifico", cursive;
+      font-weight: bold;
+      top: 2em;
+      left: 2em;
+      position: relative;
+      color: #fff; }
+    #review .reviewing p {
+      position: relative;
+      color: #fff;
+      top: 4em;
+      left: 3em;
+      font-weight: 400;
+      font-size: 1.3em;
+      margin-right: 4em; }
+    #review .reviewing h3 {
+      position: relative;
+      color: #fff;
+      top: 4em;
+      left: 2em;
+      font-weight: bold;
+      margin-bottom: 1em; }
+    #review .reviewing span {
+      position: relative;
+      color: #fff;
+      top: 5em;
+      left: 3.5em; }
+  #review .chef {
+    margin-top: -2em;
+    padding-left: 7.5em; }
 
 /*# sourceMappingURL=style.css.map */
