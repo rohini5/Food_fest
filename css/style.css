@@ -89,4 +89,111 @@ body {
 #specials .desc p {
   padding-top: 1em; }
 
+#foodtypes {
+  background-image: url("../images/our-products-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  margin-top: 2em; }
+  #foodtypes h2 {
+    font-size: 3em;
+    font-family: "Pacifico", cursive;
+    color: #fff;
+    margin-top: 1.5em; }
+  #foodtypes i {
+    color: #fff;
+    margin-top: 1em; }
+  #foodtypes p {
+    color: #fff;
+    padding: 1em; }
+  #foodtypes .image {
+    border: 4px solid white;
+    padding: 1em;
+    margin-bottom: 4em; }
+    #foodtypes .image img {
+      transition: transform 2s; }
+      #foodtypes .image img:hover {
+        transform: rotateY(180deg); }
+    #foodtypes .image h3 {
+      color: #fff; }
+
+#order {
+  background-image: url("../images/slider1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  margin-top: 4em;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7); }
+  #order .food {
+    padding-top: 2em; }
+  #order .chef {
+    padding-top: 2.5em;
+    padding-left: 8em;
+    color: #fff; }
+    #order .chef h3 {
+      margin-top: 10px;
+      /*if u write any style and if it's not working use
+      margin-top: 10px !imaporent; */
+      font-size: 3.5em; }
+    #order .chef p {
+      font-size: 1.8em; }
+      #order .chef p i {
+        padding-right: 10px; }
+  #order .try-it {
+    margin-top: 2em; }
+  #order .any i {
+    padding-right: 0.8em; }
+
+#menu .desc h2 {
+  margin-top: 2em;
+  font-size: 3em;
+  color: #F26522;
+  font-family: "Pacifico", cursive; }
+#menu .desc i {
+  padding-top: 1em;
+  color: #9db7c5; }
+#menu .desc p {
+  padding: 2em 0em 2em; }
+#menu .drinks {
+  margin-top: 2em; }
+  #menu .drinks a {
+    text-align: center;
+    font-weight: bold; }
+  #menu .drinks img {
+    background-color: #fff;
+    height: 300px;
+    width: 360px; }
+
+#extras {
+  background-image: url("../images/extras-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 4em;
+  width: 100vw;
+  /*we are using width in all background so that it will cover the full screen*/
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+  /*to lighten the image we are using box-shadow*/ }
+  #extras h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #fff;
+    font-family: "Raleway", sans-serif; }
+  #extras img {
+    padding-left: 42em;
+    margin-bottom: 2em; }
+  #extras .extra-type {
+    margin-bottom: 2em;
+    color: #fff; }
+    #extras .extra-type i {
+      font-size: 6em; }
+      #extras .extra-type i:hover {
+        color: #F26522; }
+    #extras .extra-type p {
+      margin: 1em 0em;
+      font-size: 1.8em;
+      font-weight: bold;
+      font-family: "Raleway", sans-serif; }
+      #extras .extra-type p:hover {
+        color: #F26522; }
+
 /*# sourceMappingURL=style.css.map */

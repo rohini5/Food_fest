@@ -1,0 +1,38 @@
+#foodtypes{
+	background-image: url("../images/our-products-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	margin-top: 2em;
+
+	h2{
+		font-size: 3em;
+		font-family: $primary-font;
+		color: $primary-color;
+		margin-top: 1.5em;
+	}
+	i{
+		color: $primary-color;
+		margin-top: 1em;
+	}
+	p{
+		color: $primary-color;
+		padding: 1em;
+	}
+
+	.image{
+		border:4px solid white;
+		padding:1em;
+		margin-bottom: 4em;
+		img{
+		transition: transform 2s;
+		&:hover{
+			transform:rotateY(180deg);
+		}
+	}
+	h3{
+		color: $primary-color;
+	}
+
+	}
+}

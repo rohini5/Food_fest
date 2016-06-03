@@ -1,0 +1,39 @@
+#extras{
+	background-image: url('../images/extras-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 4em;
+	width: 100vw;
+	/*we are using width in all background so that it will cover the full screen*/
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
+	/*to lighten the image we are using box-shadow*/
+	h2{
+	font-size: 2.5em;
+    font-weight: bold;
+    color: #fff;
+    font-family: $secondary-font;
+	}
+img{
+	    padding-left: 42em;
+    margin-bottom: 2em;
+}
+.extra-type{
+	margin-bottom: 2em;
+	color: $primary-color;
+	i{
+font-size: 6em;
+&:hover{
+	color:$secondary-color;
+	}
+}
+p{
+	margin:1em 0em;
+	font-size: 1.8em;
+	font-weight: bold;
+	font-family: $secondary-font;
+	&:hover{
+	color:$secondary-color;
+	}
+}
+}
+}
