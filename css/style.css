@@ -297,4 +297,32 @@ body {
     margin-top: -2em;
     padding-left: 7.5em; }
 
+#details {
+  margin-top: 4em;
+  margin-bottom: 2em; }
+  #details .detail {
+    height: 20vh; }
+    #details .detail h2 {
+      font-family: 'Pacifico', cursive;
+      font-size: 3em;
+      color: #4A79A3;
+      font-weight: 500; }
+    #details .detail p {
+      margin-top: 1.5em;
+      font-size: 1.3em;
+      font-family: "Raleway", sans-serif;
+      color: #38515e; }
+      #details .detail p i {
+        margin-right: 1em; }
+    #details .detail i {
+      margin-right: 2.5em;
+      font-size: 1.1em; }
+    #details .detail .eventinfo {
+      margin-top: 1.5em;
+      font-size: 1.3em;
+      font-family: "Raleway", sans-serif;
+      color: #38515e; }
+    #details .detail .contact {
+      margin-bottom: 1.5em; }
+
 /*# sourceMappingURL=style.css.map */

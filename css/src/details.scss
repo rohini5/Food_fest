@@ -1,0 +1,37 @@
+#details{
+	margin-top: 4em;
+	margin-bottom: 2em;
+	.detail{
+		height: 20vh;
+	h2{
+		font-family: 'Pacifico', cursive;
+		font-size: 3em;
+		color: #4A79A3;
+		font-weight: 500;
+	}
+	p{
+		margin-top: 1.5em;
+		font-size: 1.3em;
+		font-family: $secondary-font;
+		    color: #38515e;
+		    i{
+		    	margin-right: 1em;
+		    }
+	}
+	i{
+	margin-right: 2.5em;
+	font-size: 1.1em;
+
+	}
+	.eventinfo{
+		margin-top: 1.5em;
+		font-size: 1.3em;
+		font-family: $secondary-font;
+		    color: #38515e;
+	}
+	.contact{
+		margin-bottom: 1.5em;
+	}
+	}
+
+}
