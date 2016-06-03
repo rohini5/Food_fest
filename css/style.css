@@ -198,4 +198,56 @@ body {
       #extras .extra-type p:hover {
         color: #F26522; }
 
+#booking h2 {
+  margin-top: 1.8em;
+  font-size: 3em;
+  color: #F26522;
+  font-family: "Pacifico", cursive; }
+#booking i {
+  padding-top: 1em;
+  color: #9db7c5; }
+#booking p {
+  padding: 1.5em; }
+#booking .book .text-input {
+  height: 50px;
+  color: gray;
+  border: 1px solid gray;
+  margin-bottom: 2em;
+  width: 45vh;
+  border-radius: 2px;
+  padding-left: 15px; }
+  #booking .book .text-input:hover {
+    color: #F26522; }
+#booking .book .book-list {
+  height: 50px;
+  color: gray;
+  border: 1px solid gray;
+  margin-bottom: 2em;
+  width: 45vh;
+  border-radius: 2px; }
+  #booking .book .book-list:hover {
+    color: #F26522; }
+#booking .book .text-msg {
+  height: 12em;
+  color: gray;
+  border: 1px solid gray;
+  margin-bottom: 2em;
+  width: 143vh;
+  border-radius: 2px;
+  padding-left: 15px; }
+  #booking .book .text-msg:hover {
+    color: #F26522; }
+#booking .book .btn-solid {
+  font-size: 1.3em;
+  color: #fff;
+  font-weight: bolder;
+  padding: 0.8em 3em;
+  background-color: #F26522;
+  border: 2px solid #fff;
+  transition: background-color;
+  margin-left: 25em; }
+  #booking .book .btn-solid:hover {
+    color: #fff;
+    background-color: gray; }
+
 /*# sourceMappingURL=style.css.map */
