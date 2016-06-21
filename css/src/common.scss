@@ -1,5 +1,8 @@
 body{
 	font-family: 'Open Sans', sans-serif;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Montserrat', sans-serif;
+	overflow-x:hidden;
 }
 .btn-outline{
       	font-size: 1.3em;
@@ -7,4 +10,14 @@ body{
           font-weight: bolder;
           padding: 1em 2em;
           border: 2px solid $primary-color;
+         pointer-events: none;
+			transition: background-color;
+          &:hover{
+          	 color: $primary-color;
+          	 background-color:black;
+          }
+          &:focus{
+              color: #fff;
+    text-decoration: none; 
+          }
       }

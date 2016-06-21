@@ -1,0 +1,67 @@
+#booking{
+h2{
+	margin-top: 1.8em;
+		font-size: 3em;
+    color: $secondary-color;
+    font-family: $primary-font;
+}	
+i{
+	    padding-top: 1em;
+    color: #9db7c5;
+}
+p{
+	padding: 1.5em;
+}
+.book{
+	margin-bottom: 12em;
+.text-input{
+	height: 50px;
+	color: gray;
+	border: 1px solid gray;
+	margin-bottom: 2em;
+	width: 45vh;
+	border-radius: 2px;
+	padding-left: 15px;
+	&:hover{
+		color:$secondary-color;
+	}
+}
+.book-list{
+	height: 50px;
+	color: gray;
+	border: 1px solid gray;
+	margin-bottom: 2em;
+	width: 45vh;
+	border-radius: 2px;
+	&:hover{
+		color:$secondary-color;
+	}
+}
+.text-msg{
+height: 12em;
+color: gray;
+	border: 1px solid gray;
+	margin-bottom: 2em;
+	width: 143vh;
+	border-radius: 2px;	
+	padding-left: 15px;
+	&:hover{
+		color:$secondary-color;
+	}
+}
+.btn-solid{
+	font-size: 1.3em;
+          color: $primary-color;
+          font-weight: bolder;
+          padding: 0.8em 3em;
+          background-color: $secondary-color;
+          border: 2px solid $primary-color;
+			transition: background-color;
+			margin-left: 25em;
+          &:hover{
+          	 color: $primary-color;
+          	 background-color:gray;
+          }
+}
+}
+}

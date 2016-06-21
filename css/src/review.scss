@@ -1,0 +1,54 @@
+#review{
+	margin-top: 6em;
+	background-image: url('../images/comment-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+
+	.reviewing{
+		margin-top: 7em;
+		height: 28em;
+		background-color: transparentize($secondary-color,0.2);
+		img{
+			position: relative;
+			top: 4em;
+			left:4em;
+		}
+		h2{
+			font-family: $primary-font;
+			font-weight: bold;
+			top: 2em;
+			left: 2em;
+			position: relative;
+			color: $primary-color;
+
+		}
+		p{
+			position: relative;
+			color: $primary-color;
+			top: 4em;
+			left: 3em;
+			font-weight: 400;
+			font-size: 1.3em;
+			margin-right: 4em;
+		}
+		h3{
+			position: relative;
+			color: $primary-color;
+			top: 4em;
+			left: 2em;
+			font-weight: bold;
+			margin-bottom: 1em;
+		}
+		span{
+			position: relative;
+			color: $primary-color;
+			top: 5em;
+			left: 3.5em;
+		}
+	}
+	.chef{
+	margin-top: -2em;
+	padding-left: 7.5em;
+	}
+}
